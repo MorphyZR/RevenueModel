@@ -57,8 +57,8 @@ class Customer(object):
             new_customer = res[i-1] + self.increment_simu[i] - res[i-1] * lr
             res.append(new_customer)
         
-        plt.plot(res)
-        plt.show()
+        # plt.plot(res)
+        # plt.show()
 
         return res
 
